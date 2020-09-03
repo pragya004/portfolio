@@ -1,0 +1,431 @@
+#slider
+{
+	background-color: #FF9B80;
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left:-40vw;
+}
+#menu
+{
+	
+	right: 150px;
+	width: 40%;
+	height: 50px;
+	z-index: 2;
+	position: absolute;
+	top: 3%;
+}
+#menu a
+{
+	text-decoration: none;
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
+}
+/*#menu a:active
+{
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}*/
+#menu a:hover
+{
+	color:white;
+}
+#intro
+{
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 16px;
+	overflow-wrap: break-word;
+	width: 60%;
+	height: 400px;
+	right: 15%;
+	position: absolute;
+	top: 40%;
+}
+#frontend
+{
+	font-family: 'Mukta', sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-bottom: 20px;
+}
+#designer
+{
+	font-family: 'Mukta', sans-serif;
+	font-size: 50px;
+	color: black;
+	color: black;
+	height: 60px;
+	margin-bottom: 0px;
+}
+#developer
+{
+	font-family: 'Mukta', sans-serif;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+	position: absolute;
+	right: 0;	
+}
+#text
+{
+	position: absolute;
+	z-index: 2;
+	height: 50%;
+	width: 40%;
+	top: 35%;
+	right: 150px;
+}
+body
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#hello
+{
+	letter-spacing: 10px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 100px;
+	/*font-weight: bolder;*/
+	position:absolute;
+	top:2%;
+	right: -95px;
+	color: #212121;
+	overflow-wrap: break-word;
+	margin: 0px 0px 0px 0px;
+}
+#mypic
+{
+	position: absolute;
+	top: 15%;
+	right: 40%;
+	width:80px;
+	height: 80px;
+}
+
+#helloButton
+{
+	position: absolute;
+	bottom: 15%;
+	right: 37%;
+	width:100px;
+	height: 50px;
+	font-family: 'Mukta', sans-serif;
+	font-size: 16px;
+	background-color: white;
+	border:2px solid #cf6f55;
+	margin-top: 10px;
+}
+#helloButton:hover
+{
+	cursor: pointer;
+	border: none;
+	background-color:#cf6f55;
+	color: white; 
+}
+
+#button{
+
+	z-index: 2;
+	/*border: 5px solid white;*/
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	top: 75%;
+	right: -2vw;
+	position: absolute;
+
+}
+#button:hover
+{
+	cursor: pointer;
+}
+#skill-section
+{
+	height: 65vh;
+	width: 100%;
+}
+#projects
+{
+
+	height: 130vh;
+	width: 100%;
+}
+#front
+{
+	height: 100vh;
+	width: 100%;
+	top: 0px;
+}
+/*#cf6f55*/
+/*#d43030*/
+#rightPart
+{
+	margin:0px 0px 0px 0px;
+	position: absolute;
+	right: 0px;
+	height: 100vh;
+	width: 40vw;
+}
+#skills
+{
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 40px;
+	margin:50px 0px 0px 100px;
+}
+
+
+#pro
+{
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 40px;
+	margin: 50px 0px 0px 100px;
+}
+#proj
+{
+	height: 500px;
+	margin: 0px 0px 0px 30px;
+	width: 95%;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+#skillSection
+{
+	margin:50px 0px 20px 100px;
+	width: 85%;
+	height: 30%; 
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.skill
+{
+
+	display: flex; /* or inline-flex */
+  align-items: center; 
+  justify-content: center;
+	border: 1px solid #cf6f55;
+	border-radius: 50%;
+	padding:15px 15px 15px 15px;
+	margin: 30px 50px 0px 0px; 
+	width: 70px;
+	height: 70px;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	font-weight: lighter;
+	transition: transform 0.7s linear;
+}
+
+.skill:hover {
+  transform: scale(1.3) rotate(360deg);
+}
+.skill:hover
+{
+	background-color: #cf6f55;
+	color: white;
+}
+.card
+{
+	height: 310px;
+	width: 220px;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-left:70px;
+	margin-top: 50PX;
+}
+
+.heading
+{
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	font-size: 22px;
+	text-align: left;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.content
+{
+	font-family: 'Quicksand', sans-serif;
+	color: #444444;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.proskills
+{
+		margin-top: 5%;
+		margin-right: 0px;
+		margin-left: 15px;
+		height: 70px;
+		width:190px;
+		display: inline-flex;
+		flex-wrap: wrap;
+}
+.myproskill
+{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 10px;
+	flex-direction: row;
+	background-color: #ff9b80;
+	font-size: 11px;
+	border: 1px solid white;
+	border-radius: 25px;
+	color: white;
+	height: 14px;
+	padding: 6px 9px 6px 9px;
+	/*width:55px;*/
+	text-align: center;
+}
+.view
+{
+	/*border: 1px solid #cf6f55;*/
+	/*border-radius: 5px;*/
+	padding:10px 10px 10px 10px;
+	width: 50px;
+	height: 17px;
+	position: relative;
+	top: -70px;
+	left: 70px;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	font-weight: lighter;	
+	display: none;
+	background-color: white;
+	border: 2px solid #ff9b80;
+	border-radius: 7px;
+}
+.git
+{
+	background-color: white;
+	/*border: 1px solid #cf6f55;*/
+	/*border-radius: 5px;*/
+	padding:10px 10px 10px 10px;
+	width: 50px;
+	height: 17px;
+	position: relative;
+	top: -50px;
+	left: 70px;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	font-weight: lighter;	
+	display: none;
+	border: 2px solid #ff9b80;
+	border-radius: 7px;
+}
+.view:hover,.git:hover
+{
+	color: #bb4f32; 
+	cursor: pointer;
+}
+.card:hover
+{
+	background-color: #ff9b80;
+	cursor:pointer;
+}
+.modal
+{
+	position: fixed;
+    display:none;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    z-index: 4;
+    background-color: rgba(157, 157, 157,0.5);
+}
+.modal-content
+{
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    width: 94%;
+	background-color: rgba(157, 157, 157,0.05);
+    height:94%;
+}
+
+img
+{
+	width: auto;
+	height: 100%;
+}
+.swiper-slide
+{
+	text-align: center;
+}
+.swiper-container {
+    width: 100%;
+    height: 90%;
+}
+.close-button
+{
+	z-index: 4;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #0f7ffb;
+    background-color: #0f7ffb;
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+}
+
+#contact
+{
+	height: 60vh;
+	width: 100%;
+}
+
+#contactme
+{
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 40px;
+	margin:10px 0px 0px 100px;
+}
+#contacts
+{
+	margin-top: 50px;
+	margin-left: 100px;
+	width: 80%;
+}
+.con
+{
+	width: 93%;
+	margin-bottom: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+}
+.con a
+{
+	text-decoration: none;
+	color: black;
+}
+.con a:hover
+{
+	color: #0f7ffb;
+}
+.contactimages
+{
+	height: 23px;
+	width: 23px;
+	margin-right: 30px;
+}
