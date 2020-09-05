@@ -1,20 +1,37 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+
+/*cover page*/
+
+
+#front
+{
+	height: 100vh;
+	width: 100%;
+	top: 0px;
+}
 #slider
 {
 	background-color: #FF9B80;
 	height: 100vh;
-	width: 100%;
+	width: 60%;
 	position: absolute;
-	left:-40vw;
+	left:0;
 }
 #menu
 {
-	
-	right: 150px;
 	width: 40%;
 	height: 50px;
 	z-index: 2;
+	left:100px;
 	position: absolute;
-	top: 3%;
+	top: 5%;
 }
 #menu a
 {
@@ -24,28 +41,30 @@
 	font-size: 18px;
 	padding: 10px 10px 10px 10px;
 }
-/*#menu a:active
-{
-	text-decoration: none;
-	border-bottom: 1px solid black;
-}*/
 #menu a:hover
 {
 	color:white;
 }
-#intro
+#hello
 {
-	text-align: center;
-	padding: 10px 10px 10px 10px;
-	font-family: 'Mukta', sans-serif;
-	color: black;
-	font-size: 16px;
+	letter-spacing: 10px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 100px;
+	position:absolute;
+	top:2%;
+	right: -95px;
+	color: #212121;
 	overflow-wrap: break-word;
-	width: 60%;
-	height: 400px;
-	right: 15%;
+	margin: 0px 0px 0px 0px;
+}
+#text
+{
 	position: absolute;
-	top: 40%;
+	z-index: 2;
+	height: 50%;
+	width: 40%;
+	top: 35%;
+	left:100px;
 }
 #frontend
 {
@@ -61,6 +80,7 @@
 	color: black;
 	color: black;
 	height: 60px;
+	width: 400px;
 	margin-bottom: 0px;
 }
 #developer
@@ -70,34 +90,15 @@
 	color: white;
 	margin-bottom: 20px;
 	position: absolute;
-	right: 0;	
+	left:62%;
 }
-#text
+#rightPart
 {
+	margin:0px 0px 0px 0px;
 	position: absolute;
-	z-index: 2;
-	height: 50%;
-	width: 40%;
-	top: 35%;
-	right: 150px;
-}
-body
-{
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-}
-#hello
-{
-	letter-spacing: 10px;
-	font-family: 'Archivo Black', sans-serif;
-	font-size: 100px;
-	/*font-weight: bolder;*/
-	position:absolute;
-	top:2%;
-	right: -95px;
-	color: #212121;
-	overflow-wrap: break-word;
-	margin: 0px 0px 0px 0px;
+	right: 0px;
+	height: 100vh;
+	width: 40vw;
 }
 #mypic
 {
@@ -107,7 +108,20 @@ body
 	width:80px;
 	height: 80px;
 }
-
+#intro
+{
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 16px;
+	overflow-wrap: break-word;
+	width: 60%;
+	height: 400px;
+	right: 15%;
+	position: absolute;
+	top: 40%;
+}
 #helloButton
 {
 	position: absolute;
@@ -129,87 +143,35 @@ body
 	color: white; 
 }
 
-#button{
 
-	z-index: 2;
-	/*border: 5px solid white;*/
-	border-radius: 50%;
-	width: 64px;
-	height: 64px;
-	top: 75%;
-	right: -2vw;
-	position: absolute;
 
-}
-#button:hover
-{
-	cursor: pointer;
-}
+/*skills section*/
+
 #skill-section
 {
-	height: 65vh;
+	height: 40%;
 	width: 100%;
-}
-#projects
-{
-
-	height: 130vh;
-	width: 100%;
-}
-#front
-{
-	height: 100vh;
-	width: 100%;
-	top: 0px;
-}
-/*#cf6f55*/
-/*#d43030*/
-#rightPart
-{
-	margin:0px 0px 0px 0px;
-	position: absolute;
-	right: 0px;
-	height: 100vh;
-	width: 40vw;
 }
 #skills
 {
 	font-family: 'Mukta', sans-serif;
 	color: black;
 	font-size: 40px;
-	margin:50px 0px 0px 100px;
-}
-
-
-#pro
-{
-	font-family: 'Mukta', sans-serif;
-	color: black;
-	font-size: 40px;
-	margin: 50px 0px 0px 100px;
-}
-#proj
-{
-	height: 500px;
-	margin: 0px 0px 0px 30px;
-	width: 95%;
-	display: inline-flex;
-	flex-wrap: wrap;
+	margin:80px 0px 0px 100px;
 }
 #skillSection
 {
-	margin:50px 0px 20px 100px;
-	width: 85%;
-	height: 30%; 
+	margin:0px 0px 20px 100px;
 	display: inline-flex;
 	flex-wrap: wrap;
 }
+
 .skill
 {
 
-	display: flex; /* or inline-flex */
-  align-items: center; 
-  justify-content: center;
+	display: flex;
+    align-items: center; 
+    justify-content: center;
 	border: 1px solid #cf6f55;
 	border-radius: 50%;
 	padding:15px 15px 15px 15px;
@@ -232,6 +194,25 @@ body
 	background-color: #cf6f55;
 	color: white;
 }
+
+
+
+/*projests*/
+
+#pro
+{
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 40px;
+	margin: 80px 0px 0px 100px;
+}
+#proj
+{
+	margin: 0px 0px 0px 30px;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
 .card
 {
 	height: 310px;
@@ -241,6 +222,8 @@ body
 	margin-left:70px;
 	margin-top: 50PX;
 }
+
+
 
 .heading
 {
@@ -287,13 +270,10 @@ body
 	color: white;
 	height: 14px;
 	padding: 6px 9px 6px 9px;
-	/*width:55px;*/
 	text-align: center;
 }
 .view
 {
-	/*border: 1px solid #cf6f55;*/
-	/*border-radius: 5px;*/
 	padding:10px 10px 10px 10px;
 	width: 50px;
 	height: 17px;
@@ -313,8 +293,6 @@ body
 .git
 {
 	background-color: white;
-	/*border: 1px solid #cf6f55;*/
-	/*border-radius: 5px;*/
 	padding:10px 10px 10px 10px;
 	width: 50px;
 	height: 17px;
@@ -388,6 +366,11 @@ img
     float: left;
 }
 
+
+
+/*contact section*/
+
+
 #contact
 {
 	height: 60vh;
@@ -399,7 +382,7 @@ img
 	font-family: 'Mukta', sans-serif;
 	color: black;
 	font-size: 40px;
-	margin:10px 0px 0px 100px;
+	margin:80px 0px 0px 100px;
 }
 #contacts
 {
