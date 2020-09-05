@@ -211,6 +211,7 @@ body
 	margin: 0px 0px 0px 30px;
 	display: inline-flex;
 	flex-wrap: wrap;
+	width:85%;
 }
 
 .card
