@@ -5,7 +5,6 @@ var view = document.querySelectorAll('.view');
 var git = document.querySelectorAll('.git');
 var proskills = document.querySelectorAll('.proskills');
 
-
 cards[0].addEventListener("mouseover", function( e )
 {
 	heading[0].style.visibility='hidden';
@@ -74,7 +73,6 @@ cards[3].addEventListener("mouseout", function( e )
 	git[3].style.display='none';
 	proskills[3].style.visibility='visible';
 });
-
 cards[4].addEventListener("mouseover", function( e )
 {
 	heading[4].style.visibility='hidden';
@@ -92,7 +90,6 @@ cards[4].addEventListener("mouseout", function( e )
 	git[4].style.display='none';
 	proskills[4].style.visibility='visible';
 });
-
 cards[5].addEventListener("mouseover", function( e )
 {
 	heading[5].style.visibility='hidden';
@@ -126,6 +123,59 @@ cards[6].addEventListener("mouseout", function( e )
 	view[6].style.display='none';
 	git[6].style.display='none';
 	proskills[6].style.visibility='visible';
+});
+
+cards[7].addEventListener("mouseover", function( e )
+{
+	heading[7].style.visibility='hidden';
+	content[7].style.visibility='hidden';
+	view[7].style.display='block';
+	git[7].style.display='block';
+	proskills[7].style.visibility='hidden';
+});
+
+cards[7].addEventListener("mouseout", function( e )
+{
+	heading[7].style.visibility='visible';
+	content[7].style.visibility='visible';
+	view[7].style.display='none';
+	git[7].style.display='none';
+	proskills[7].style.visibility='visible';
+});
+
+cards[8].addEventListener("mouseover", function( e )
+{
+	heading[8].style.visibility='hidden';
+	content[8].style.visibility='hidden';
+	view[8].style.display='block';
+	git[8].style.display='block';
+	proskills[8].style.visibility='hidden';
+});
+
+cards[8].addEventListener("mouseout", function( e )
+{
+	heading[8].style.visibility='visible';
+	content[8].style.visibility='visible';
+	view[8].style.display='none';
+	git[8].style.display='none';
+	proskills[8].style.visibility='visible';
+});
+cards[9].addEventListener("mouseover", function( e )
+{
+	heading[9].style.visibility='hidden';
+	content[9].style.visibility='hidden';
+	view[9].style.display='block';
+	git[9].style.display='block';
+	proskills[9].style.visibility='hidden';
+});
+
+cards[9].addEventListener("mouseout", function( e )
+{
+	heading[9].style.visibility='visible';
+	content[9].style.visibility='visible';
+	view[9].style.display='none';
+	git[9].style.display='none';
+	proskills[9].style.visibility='visible';
 });
 
 

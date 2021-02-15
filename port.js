@@ -1,33 +1,3 @@
-// var button1= document.querySelector('#button');
-// var slider1=document.querySelector('#slider');
-// var hello = document.querySelector('#hello');
-// var text = document.querySelector('#text');
-
-
-// button1.addEventListener('click',slidein);
-
-// function slidein(e)
-// {
-// 	button1.style.display='none';
-// 	console.log('here');
-// 	  var pos = -40;
-// 	  var id = setInterval(frame, 20);
-// 	  function frame() 
-// 	  {
-// 	    if (pos == 0) 
-// 	    {
-// 	      clearInterval(id);
-// 	    } 
-// 	    else 
-// 	    {
-// 	      pos++;
-// 	      slider1.style.left= pos + '%';
-// 	    }
-// 	  }
-// 	slider1.style.backgroundColor='#ffcfc2';
-// 	hello. style. display='none';
-// 	text.style.display='none';
-// }
 
 
 //SWIPER
@@ -42,57 +12,6 @@ var swiper = new Swiper('.swiper-container', {
       observer:true,
       observeParents:true,
     });
-
-
-// MODAL 0----------------------------------------------------------------------------------------------------------
-var modal0=document.getElementById("modal0");
-var closeModalButton0 = document.getElementById("back-button0");
-var openModalButton = document.querySelectorAll(".view");
-openModalButton[0].addEventListener("click",openModal0);
-closeModalButton0.addEventListener("click",closeModal0);
-function openModal0()
-{
-    modal0.style.display='block';
-}
-function closeModal0()
-{
-    modal0.style.display='none';
-}
-
-
-
-// MODAL 1----------------------------------------------------------------------------------------------------------
-var modal1=document.getElementById("modal1");
-var closeModalButton1 = document.getElementById("back-button1");
-var openModalButton = document.querySelectorAll(".view");
-openModalButton[1].addEventListener("click",openModal1);
-closeModalButton1.addEventListener("click",closeModal1);
-function openModal1()
-{
-    modal1.style.display='block';
-}
-function closeModal1()
-{
-    modal1.style.display='none';
-}
-
-
-
-// MODAL 2----------------------------------------------------------------------------------------------------------
-var modal2=document.getElementById("modal2");
-var closeModalButton2 = document.getElementById("back-button2");
-var openModalButton = document.querySelectorAll(".view");
-openModalButton[2].addEventListener("click",openModal2);
-closeModalButton2.addEventListener("click",closeModal2);
-function openModal2()
-{
-    modal2.style.display='block';
-}
-function closeModal2()
-{
-    modal2.style.display='none';
-}
-
 
 
 // MODAL 3----------------------------------------------------------------------------------------------------------
@@ -145,6 +64,7 @@ function closeModal5()
 }
 
 
+
 // MODAL 6----------------------------------------------------------------------------------------------------------
 var modal6=document.getElementById("modal6");
 var closeModalButton6 = document.getElementById("back-button6");
@@ -158,6 +78,56 @@ function openModal6()
 function closeModal6()
 {
     modal6.style.display='none';
+}
+
+
+
+// MODAL 7----------------------------------------------------------------------------------------------------------
+var modal7=document.getElementById("modal7");
+var closeModalButton7 = document.getElementById("back-button7");
+var openModalButton = document.querySelectorAll(".view");
+openModalButton[7].addEventListener("click",openModal7);
+closeModalButton7.addEventListener("click",closeModal7);
+function openModal7()
+{
+    modal7.style.display='block';
+}
+function closeModal7()
+{
+    modal7.style.display='none';
+}
+
+
+
+// MODAL 8----------------------------------------------------------------------------------------------------------
+var modal8=document.getElementById("modal8");
+var closeModalButton8 = document.getElementById("back-button8");
+var openModalButton = document.querySelectorAll(".view");
+openModalButton[8].addEventListener("click",openModal8);
+closeModalButton8.addEventListener("click",closeModal8);
+function openModal8()
+{
+    modal8.style.display='block';
+}
+function closeModal8()
+{
+    modal8.style.display='none';
+}
+
+
+// MODAL 9----------------------------------------------------------------------------------------------------------
+var modal9=document.getElementById("modal9");
+var closeModalButton9 = document.getElementById("back-button9");
+var openModalButton = document.querySelectorAll(".view");
+openModalButton[9].addEventListener("click",openModal9);
+closeModalButton9.addEventListener("click",closeModal9);
+function openModal9()
+{
+    modal9.style.display='block';
+}
+function closeModal9()
+{
+    modal9.style.display='none';
 }
 
 
